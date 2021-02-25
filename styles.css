@@ -1,0 +1,139 @@
+body {max-width: 2000px;}
+body {font-family:Arai,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+text-align: center;
+margin:0;auto;}
+
+
+h1{
+  color:red;
+  font-size:36px;
+}
+
+h2{
+  font-size:24px;
+}
+
+figcaption{
+  font-size:12px;
+}
+
+.purupuru2:hover{
+  
+  color:yellow;
+}
+
+.purupuru2:active{
+  color:;
+}
+
+.purupuru2 {
+	position: relative;
+	font-weight: bold;
+	padding: 5px 15px;
+	margin: 0px 5px;
+	border-radius: 0px;/*角の丸み*/
+	font-size: 18px;/*文字サイズ*/
+	background-color: darkblue;/*背景色*/
+	color: #fff;/*文字色*/
+	display: inline-block;
+	text-shadow: 1px 1px 0px rgb(0, 0, 0, 0.3);
+	box-shadow: 0 3px 0 rgb(0, 0, 0, 0.3);
+}
+.purupuru2 {
+	font-family: FontAwesome;
+	content: 'f144';/*好きなアイコン*/
+	color:white;/*アイコンの色*/
+	margin-right: 3px;
+}
+
+.purupuru2 {
+	animation: purupuru2 0.5s infinite;
+}
+@keyframes purupuru2 {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(0.98, 0.95)
+	}
+}
+
+.ordermade{
+  background:linear-gradient(transparent 50%, yellow 50%);
+}
+
+.freerent{
+  background:linear-gradient(transparent 50%, yellow 50%);
+}
+
+.private,.customervoice{
+  background-color: red;
+  color:white;
+  margin        : right;                 /* サンプル用 中央寄せ  */
+  box-sizing    : border-box;           /* 罫線も含む長さ       */
+  width         : 100%;                 /* BOXの幅              */
+  max-width     : 500px;                /* BOXの最大幅          */
+  height        : 100px;                /* BOXの高さ            */
+  padding       : 23px;                 /* 文字の位置合わせ     */
+  font-size     : 30px;                 /* 文字サイズ           */
+  text-align    : center;               /* 文字位置             */
+  border        : 7px dotted white;   /* 枠線の指定           */
+  border-radius : 1px;                  /* 角丸の指定           */
+  box-shadow    : 0 0 0 12px red;   /* 影を利用した外余白   */
+}
+
+.customervoice3{
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.private2{
+  float:left;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.muscle{
+  width: 500px;
+  height: 500px;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.customervoice2{
+  float:right;
+}
+
+.customervoice3{
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.stomach{
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.guide{
+  width: 250px;
+  height: 250px;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.theprivate, .customervoicesec{
+  margin:0;auto;
+}
+
+@media screen and (max-width:600px){
+body{font-size:1.6vw;}
+h1{font-size:3,6vw;}
+a{font-size:5.0vw;}
+img{max-width:100%;}
+.cv-contents figure {float:none;max-width:200px;}
+}
+
